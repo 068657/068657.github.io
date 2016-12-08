@@ -3,14 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives: 2016/12 | Hexo</title>
+  <title>线程与进程到底是什么鬼 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2016/12/index.html">
+  <meta name="description" content="什么是进程什么是线程线程与进程的关系什么是并发两种程与并发的关系Java中的线程与进程JavaSCript中的线程与进程scala中的线程与进程">
+<meta property="og:type" content="article">
+<meta property="og:title" content="线程与进程到底是什么鬼">
+<meta property="og:url" content="http://yoursite.com/2016/12/08/process-and-thread/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="什么是进程什么是线程线程与进程的关系什么是并发两种程与并发的关系Java中的线程与进程JavaSCript中的线程与进程scala中的线程与进程">
+<meta property="og:updated_time" content="2016-12-08T02:34:10.844Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="线程与进程到底是什么鬼">
+<meta name="twitter:description" content="什么是进程什么是线程线程与进程的关系什么是并发两种程与并发的关系Java中的线程与进程JavaSCript中的线程与进程scala中的线程与进程">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,115 +63,60 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/12/08/gc/" class="archive-article-date">
-  <time datetime="2016-12-08T02:34:27.000Z" itemprop="datePublished">Dec 8</time>
+        <section id="main"><article id="post-process-and-thread" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/12/08/process-and-thread/" class="article-date">
+  <time datetime="2016-12-08T02:31:14.000Z" itemprop="datePublished">2016-12-08</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/08/gc/">垃圾回收</a>
+    <h1 class="article-title" itemprop="name">
+      线程与进程到底是什么鬼
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/12/08/process-and-thread/" class="archive-article-date">
-  <time datetime="2016-12-08T02:31:14.000Z" itemprop="datePublished">Dec 8</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/08/process-and-thread/">线程与进程到底是什么鬼</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/12/06/DI/" class="archive-article-date">
-  <time datetime="2016-12-06T05:57:42.000Z" itemprop="datePublished">Dec 6</time>
-</a>
+        <h3 id="什么是进程"><a href="#什么是进程" class="headerlink" title="什么是进程"></a>什么是进程</h3><h3 id="什么是线程"><a href="#什么是线程" class="headerlink" title="什么是线程"></a>什么是线程</h3><h3 id="线程与进程的关系"><a href="#线程与进程的关系" class="headerlink" title="线程与进程的关系"></a>线程与进程的关系</h3><h3 id="什么是并发"><a href="#什么是并发" class="headerlink" title="什么是并发"></a>什么是并发</h3><h3 id="两种程与并发的关系"><a href="#两种程与并发的关系" class="headerlink" title="两种程与并发的关系"></a>两种程与并发的关系</h3><h3 id="Java中的线程与进程"><a href="#Java中的线程与进程" class="headerlink" title="Java中的线程与进程"></a>Java中的线程与进程</h3><h3 id="JavaSCript中的线程与进程"><a href="#JavaSCript中的线程与进程" class="headerlink" title="JavaSCript中的线程与进程"></a>JavaSCript中的线程与进程</h3><h3 id="scala中的线程与进程"><a href="#scala中的线程与进程" class="headerlink" title="scala中的线程与进程"></a>scala中的线程与进程</h3>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/06/DI/">DI</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/12/06/jvm/" class="archive-article-date">
-  <time datetime="2016-12-06T02:24:38.000Z" itemprop="datePublished">Dec 6</time>
-</a>
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/12/08/process-and-thread/" data-id="ciwfr4sek0002qcjxkme60hme" class="article-share-link">Share</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/06/jvm/">jvm</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/12/06/hello-world/" class="archive-article-date">
-  <time datetime="2016-12-06T02:20:14.245Z" itemprop="datePublished">Dec 6</time>
-</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/06/hello-world/">Hello World</a>
-    </h1>
-  
-
-    </header>
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/12/08/gc/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          垃圾回收
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/12/06/DI/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">DI</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 </section>
         
